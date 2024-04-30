@@ -1,0 +1,77 @@
+/* Flags button to display the flags */
+
+.flags-button {
+  display: flex;
+  gap: .5rem;
+  justify-content: center;
+  align-items: flex-start;
+  transition: color .2s;
+  -webkit-transition: color .2s;
+  -moz-transition: color .2s;
+  -ms-transition: color .2s;
+  -o-transition: color .2s;
+}
+
+.flags-button:hover {
+  color: var(--white);
+  cursor: pointer;
+}
+
+.flags-text {
+  align-self: center;
+}
+
+.flags-arrow-right {
+  display: none;
+}
+
+.flags-arrow-right.active {
+  display: block;
+}
+
+.flags-arrow-down {
+  display: none;
+}
+
+.flags-arrow-down.active {
+  display: block;
+}
+
+
+/* Flags  */
+
+.flags-container {
+  position: absolute;
+  right: 1.7rem;
+  top: 100px;
+  
+  width: 75px;
+  padding: 16px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--primary);
+
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+
+  display: none;
+}
+
+.flags-container.active {
+  display: flex;
+}
+
+.flags-item {
+  width: 30px;
+}
+
+.flags-img {
+  cursor: pointer;
+  display: block;
+}

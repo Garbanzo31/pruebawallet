@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Own stylesheets -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/flags.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/contact-hero.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/61ebb60581.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <title>VWallet</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <img
+        class="header-logo"
+        src="imgs/logo/LOGO-transparente-negro.png"
+        alt="VWallet Logo"
+      />
+      <nav>
+        <ul class="header-menu">
+          <li>
+            <a
+              class="header-menu-link"
+              href="index.html"
+              data-section="header"
+              data-value="home"
+              >Inicio</a
+            >
+          </li>
+          <li>
+            <a
+              class="header-menu-link"
+              href="about-us.html"
+              data-section="header"
+              data-value="about"
+              >Acerca de</a
+            >
+          </li>
+          <li>
+            <a
+              class="header-menu-link"
+              href="contact.html"
+              data-section="header"
+              data-value="contact"
+              >Contáctanos</a
+            >
+          </li>
+        </ul>
+        <div class="header-menu-bar">
+          <div class="open-menu active">
+            <i class="fas fa-solid fa-bars"></i>
+          </div>
+          <div class="close-menu"><i class="fas fa-solid fa-close"></i></div>
+        </div>
+        <div class="flags-button">
+          <div class="flags-text" data-section="header" data-value="language">
+            ES
+          </div>
+          <div class="flags-arrow-right active">
+            <i class="fa fa-sm fa-chevron-right" aria-hidden="true"></i>
+          </div>
+          <div class="flags-arrow-down">
+            <i class="fa fa-sm fa-chevron-down" aria-hidden="true"></i>
+          </div>
+        </div>
+      </nav>
+      <div class="flags-container">
+        <div class="flags-item" data-language="es">
+          <img class="flags-img" src="/imgs/icons/es.svg" alt="Spanish flag" />
+        </div>
+        <div class="flags-item" data-language="en">
+          <img class="flags-img" src="/imgs/icons/us.svg" alt="USA flag" />
+        </div>
+      </div>
+    </header>
+    <section class="hero container-fluid">
+      <div class="hero-black-block"></div>
+      <div class="hero-img"></div>
+      <div class="hero-elements container">
+        <h1
+          class="hero-title col-12"
+          data-section="contact-hero"
+          data-value="title"
+        >
+          Contacta con JABEL
+        </h1>
+        <div class="contact-hero-block-container flex-md-row">
+          <div class="contact-hero-block rounded-3">
+            <i class="fa fa-2x fa-comment-o" aria-hidden="true"></i>
+            <h2 data-section="contact-hero" data-value="contact-us-title">
+              Contáctanos
+            </h2>
+            <p data-section="contact-hero" data-value="contact-us-text">
+              ¿Quieres decirnos hola? Nos encantaría saber de ti. ¡Amamos a
+              nuestros clientes y comunidad!
+            </p>
+            <a href="#contact-2nd"
+              ><button
+                class="btn-primary contact-hero-block-btn"
+                data-section="contact-hero"
+                data-value="contact-us-button"
+              >
+                Enviarnos un mensaje
+              </button></a
+            >
+          </div>
+          <div class="contact-hero-block rounded-3">
+            <i class="fa fa-2x fa-question-circle-o" aria-hidden="true"></i>
+            <h2 data-section="contact-hero" data-value="get-help-title">
+              Obtén ayuda
+            </h2>
+            <p data-section="contact-hero" data-value="get-help-text">
+              ¿Tienes algún problema con un pago en VWallet? Completa nuestro
+              formulario de soporte.
+            </p>
+            <a href="#contact-1st"
+              ><button
+                class="btn-primary contact-hero-block-btn"
+                data-section="contact-hero"
+                data-value="get-help-button"
+              >
+                Contacta ayuda
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact container-fluid">
+      <div class="contact-elements container flex-lg-row">
+        <div id="contact-1st" class="col-lg-4">
+          <h2 data-section="contact" data-value="1st-title">Contáctanos</h2>
+          <p data-section="contact" data-value="1st-description1">JABEL123</p>
+          <p data-section="contact" data-value="1st-description2">
+            Rainy Street
+          </p>
+          <p data-section="contact" data-value="1st-description3">
+            Oklahoma City, OK 73129
+          </p>
+          <p data-section="contact" data-value="1st-description4">
+            Consultas generales: (405) 555-5555
+          </p>
+          <p data-section="contact" data-value="1st-description5">
+            Atención al cliente: (405) 555-5556
+          </p>
+        </div>
+        <div id="contact-2nd" class="col-lg-6">
+          <h2 data-section="contact" data-value="2nd-title">
+            Formulario de soporte
+          </h2>
+          <p data-section="contact" data-value="2nd-paragraph">
+            ¡Envíanos un mensaje y te responderemos lo más pronto posible!
+          </p>
+          <form class="contact-form" action="" method="get">
+            <div class="inputBox">
+              <input type="text" name="name" required />
+              <span data-section="contact" data-value="2nd-field1">Nombre</span>
+            </div>
+            <div class="inputBox">
+              <input type="text" name="email" required />
+              <span data-section="contact" data-value="2nd-field2">Email</span>
+            </div>
+            <div class="inputBox">
+              <input type="text" name="msg" required />
+              <span data-section="contact" data-value="2nd-field3"
+                >Mensaje</span
+              >
+            </div>
+            <button
+              class="btn-primary form-2nd-button"
+              data-section="contact"
+              data-value="2nd-button"
+            >
+              Enviar
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="footer container-fluid">
+      <div class="footer-elements container flex-sm-row">
+        <div class="footer-1st">
+          <figure class="footer-img-container">
+            <img
+              class="footer-img"
+              src="imgs/logo/LOGO-transparente-blanco.png"
+              alt="VWallet Logo"
+            />
+          </figure>
+          <p class="footer-description">©Copyright 2022. VWallet.</p>
+        </div>
+        <div class="footer-2nd">
+          <nav class="social-media">
+            <a target="_blank" href="https://www.facebook.com/"
+              ><i
+                class="social-media-icon fa fa-facebook d-block"
+                aria-hidden="true"
+              ></i
+            ></a>
+            <a target="_blank" href="https://twitter.com/?lang=es"
+              ><i
+                class="social-media-icon fa fa-twitter d-block"
+                aria-hidden="true"
+              ></i
+            ></a>
+            <a target="_blank" href="https://www.instagram.com/"
+              ><i
+                class="social-media-icon fa fa-instagram d-block"
+                aria-hidden="true"
+              ></i
+            ></a>
+          </nav>
+          <nav class="footer-link-container">
+            <a
+              class="footer-link"
+              target="_blank"
+              href="https://politicadeprivacidadplantilla.com/"
+              data-section="footer"
+              data-value="privacy-policy"
+              >Política de privacidad</a
+            >
+            <a
+              class="footer-link"
+              target="_blank"
+              href="https://politicadeprivacidadplantilla.com/"
+              data-section="footer"
+              data-value="cookies-policy"
+              >Política de cookies</a
+            >
+          </nav>
+        </div>
+      </div>
+    </footer>
+    <script src="js/header.js"></script>
+    <script src="js/flags.js"></script>
+  </body>
+</html>

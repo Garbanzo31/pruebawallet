@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Own stylesheets -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/flags.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/hero.css" />
+    <link rel="stylesheet" href="css/safe.css" />
+    <link rel="stylesheet" href="css/benefits.css" />
+    <link rel="stylesheet" href="css/services.css" />
+    <link rel="stylesheet" href="css/cta.css" />
+    <link rel="stylesheet" href="css/testimony-slider.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/61ebb60581.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <title>VWallet</title>
+  </head>
+  <body>
+    <header class="header">
+      <img
+        class="header-logo"
+        src="imgs/logo/LOGO-transparente-negro.png"
+        alt="VWallet Logo"
+      />
+      <nav>
+        <ul class="header-menu">
+          <li>
+            <a
+              class="header-menu-link"
+              href="index.html"
+              data-section="header"
+              data-value="home"
+              >Inicio</a
+            >
+          </li>
+          <li>
+            <a
+              class="header-menu-link"
+              href="about-us.html"
+              data-section="header"
+              data-value="about"
+              >Acerca de</a
+            >
+          </li>
+          <li>
+            <a
+              class="header-menu-link"
+              href="contact.html"
+              data-section="header"
+              data-value="contact"
+              >Contáctanos</a
+            >
+          </li>
+        </ul>
+        <div class="header-menu-bar">
+          <div class="open-menu active">
+            <i class="fas fa-solid fa-bars"></i>
+          </div>
+          <div class="close-menu"><i class="fas fa-solid fa-close"></i></div>
+        </div>
+        <div class="flags-button">
+          <div class="flags-text" data-section="header" data-value="language">
+            ES
+          </div>
+          <div class="flags-arrow-right active">
+            <i class="fa fa-sm fa-chevron-right" aria-hidden="true"></i>
+          </div>
+          <div class="flags-arrow-down">
+            <i class="fa fa-sm fa-chevron-down" aria-hidden="true"></i>
+          </div>
+        </div>
+      </nav>
+      <div class="flags-container">
+        <div class="flags-item" data-language="es">
+          <img class="flags-img" src="/imgs/icons/es.svg" alt="Spanish flag" />
+        </div>
+        <div class="flags-item" data-language="en">
+          <img class="flags-img" src="/imgs/icons/us.svg" alt="USA flag" />
+        </div>
+      </div>
+    </header>
+    <section class="hero container-fluid">
+      <div class="hero-elements container">
+        <h1
+          class="hero-title col-12"
+          data-section="home-hero"
+          data-value="title"
+        >
+          Despídete de las monedas
+        </h1>
+        <p
+          class="hero-paragraph col-8"
+          data-section="home-hero"
+          data-value="paragraph"
+        >
+          Utiliza una cartera online para pagar todos tus servicios de la
+          universidad.
+        </p>
+        <a href="#cta"
+          ><button
+            class="hero-btn btn-primary"
+            data-section="home-hero"
+            data-value="button"
+          >
+            ¡Descargar!
+          </button></a
+        >
+      </div>
+    </section>
+    <section class="benefits container-fluid">
+      <div class="benefits-elements container-lg">
+        <h2
+          class="benefits-title col-12"
+          data-section="benefits"
+          data-value="title"
+        >
+          VWallet y tus servicios de la universidad
+        </h2>
+        <p
+          class="benefits-paragraph"
+          data-section="benefits"
+          data-value="paragraph"
+        >
+          La problemática del COVID-19 ha hecho que el mercado digital se
+          expanda. Cada vez se suman más personas que usan medios digitales para
+          realizar sus pagos, en lugar de portar dinero en efectivo (monedas y/o
+          billetes).
+        </p>
+        <div class="benefit-container row">
+          <div class="benefits-element col-md-4">
+            <div class="benefit">
+              <p class="benefit-index">1</p>
+              <p
+                class="benefit-text"
+                data-section="benefits"
+                data-value="benefit1-title"
+              >
+                Dinero virtual
+              </p>
+            </div>
+            <p
+              class="benefit-description"
+              data-section="benefits"
+              data-value="benefit1-description"
+            >
+              Con VWallet, podrás registrarte con tu correo institucional y
+              vincularlo con dinero virtual que podrás utilizar para pagar los
+              servicios de tu universidad.
+            </p>
+          </div>
+          <div class="benefits-element col-md-4">
+            <div class="benefit">
+              <p class="benefit-index">2</p>
+              <p
+                class="benefit-text"
+                data-section="benefits"
+                data-value="benefit2-title"
+              >
+                Reserva
+              </p>
+            </div>
+            <p
+              class="benefit-description"
+              data-section="benefits"
+              data-value="benefit2-description"
+            >
+              La reserva de algunos servicios educativos, como el de transporte
+              en buses, se puede realizar en pocos pasos desde VWallet.
+            </p>
+          </div>
+          <div class="benefits-element col-md-4">
+            <div class="benefit">
+              <p class="benefit-index">3</p>
+              <p
+                class="benefit-text"
+                data-section="benefits"
+                data-value="benefit3-title"
+              >
+                Gestión
+              </p>
+            </div>
+            <p
+              class="benefit-description"
+              data-section="benefits"
+              data-value="benefit3-description"
+            >
+              A medida que vayas consumiendo los servicios, podrás observar tus
+              pagos por cada día, semana o mes a través de gráficos y tablas.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="safe container-fluid">
+      <div class="safe-elements container">
+        <h1 class="safe-title col-12" data-section="safe" data-value="title">
+          VWallet trabaja en colaboración con la UPC
+        </h1>
+        <p
+          class="safe-paragraph col-8"
+          data-section="safe"
+          data-value="paragraph"
+        >
+          JABEL tiene una asociación con la UPC para vincular el sistema de
+          pagos del aplicativo con el de la plataforma de la universidad.
+        </p>
+        <a href="about-us.html"
+          ><button
+            class="safe-btn btn-primary"
+            data-section="safe"
+            data-value="button"
+          >
+            Acerca de nosotros
+          </button></a
+        >
+      </div>
+    </section>
+    <section class="services container-fluid">
+      <div class="services-elements container-lg">
+        <h2
+          class="services-title col-12"
+          data-section="services"
+          data-value="title"
+        >
+          ¡Menú y Buses a unos clicks!
+        </h2>
+        <p
+          class="services-paragraph"
+          data-section="services"
+          data-value="paragraph"
+        >
+          Desde tu celular, instala VWallet y aprovecha todos los servicios que
+          facilitamos.
+        </p>
+        <div class="service-container row">
+          <div class="services-element col-md-4">
+            <div class="service-image-1"></div>
+            <h3
+              class="service-title"
+              data-section="services"
+              data-value="service1-title"
+            >
+              Buses
+            </h3>
+            <p
+              class="service-description"
+              data-section="services"
+              data-value="service1-description"
+            >
+              Los servicios de buses solo pueden pagarse con medios
+              electrónicos.
+            </p>
+          </div>
+          <div class="services-element col-md-4">
+            <div class="service-image-2"></div>
+            <h3
+              class="service-title"
+              data-section="services"
+              data-value="service2-title"
+            >
+              Menú
+            </h3>
+            <p
+              class="service-description"
+              data-section="services"
+              data-value="service2-description"
+            >
+              Evita estar tocando tus monedas o billetes justo antes de
+              almorzar.
+            </p>
+          </div>
+          <div class="services-element col-md-4">
+            <div class="service-image-3"></div>
+            <h3
+              class="service-title"
+              data-section="services"
+              data-value="service3-title"
+            >
+              Reserva
+            </h3>
+            <p
+              class="service-description"
+              data-section="services"
+              data-value="service3-description"
+            >
+              Con VWallet, tienes la posibilidad de reservar un servicio
+              pagándolo por adelantado.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="cta" class="cta container-fluid">
+      <div class="cta-elements container">
+        <div class="cta-img"></div>
+        <div class="cta-download">
+          <h2 class="cta-title" data-section="cta" data-value="title">
+            ¿Qué estas esperando?
+          </h2>
+          <div class="cta-download-os">
+            <a
+              href="https://play.google.com/store/games?hl=es_PE&gl=US"
+              target="_blank"
+              ><div class="cta-android"></div
+            ></a>
+            <a href="https://www.apple.com/la/app-store/" target="_blank"
+              ><div class="cta-ios"></div
+            ></a>
+          </div>
+          <p class="cta-paragraph" data-section="cta" data-value="paragraph">
+            ¡Descarga VWallet ya!
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="testimony">
+      <h2 class="testimony-title" data-section="testimony" data-value="title">
+        Comentarios sobre VWallet
+      </h2>
+      <p
+        class="testimony-paragraph"
+        data-section="testimony"
+        data-value="paragraph"
+      >
+        Por parte de la comunidad estudiantil de la UPC.
+      </p>
+      <div id="testimony-slider" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#testimony-slider"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#testimony-slider"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#testimony-slider"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner rounded-3">
+          <div class="carousel-item active">
+            <img
+              src="imgs/home/testimony1.jpg"
+              class="carousel-image d-block w-100"
+              alt="Happy girl"
+            />
+            <div class="carousel-caption d-block rounded">
+              <h3 data-section="testimony" data-value="testimony1-name">
+                María Fernandez (17)
+              </h3>
+              <p data-section="testimony" data-value="testimony1-description">
+                No necesito esperar a ser mayor para hacer pagos digitales en la
+                universidad.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="imgs/home/testimony2.jpg"
+              class="carousel-image d-block w-100"
+              alt="Smiling girl"
+            />
+            <div class="carousel-caption d-block rounded">
+              <h3 data-section="testimony" data-value="testimony2-name">
+                Alejandra Suárez (19)
+              </h3>
+              <p data-section="testimony" data-value="testimony2-description">
+                Me encanta poder reservar diariamente mi almuerzo con VWallet.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="imgs/home/testimony3.jpg"
+              class="carousel-image d-block w-100"
+              alt="Smiling boy"
+            />
+            <div class="carousel-caption d-block rounded">
+              <h3 data-section="testimony" data-value="testimony3-name">
+                Rafael Loza (20)
+              </h3>
+              <p data-section="testimony" data-value="testimony3-description">
+                VWallet me ha ayudado en el manejo de mis finanzas con respecto
+                a la universidad.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#testimony-slider"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#testimony-slider"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <footer class="footer container-fluid">
+      <div class="footer-elements container flex-sm-row">
+        <div class="footer-1st">
+          <figure class="footer-img-container">
+            <img
+              class="footer-img"
+              src="imgs/logo/LOGO-transparente-blanco.png"
+              alt="VWallet Logo"
+            />
+          </figure>
+          <p class="footer-description">©Copyright 2022. VWallet.</p>
+        </div>
+        <div class="footer-2nd">
+          <nav class="social-media">
+            <a target="_blank" href="https://www.facebook.com/"
+              ><i
+                class="social-media-icon fa fa-facebook d-block"
+                aria-hidden="true"
+              ></i
+            ></a>
+            <a target="_blank" href="https://twitter.com/?lang=es"
+              ><i
+                class="social-media-icon fa fa-twitter d-block"
+                aria-hidden="true"
+              ></i
+            ></a>
+            <a target="_blank" href="https://www.instagram.com/"
+              ><i
+                class="social-media-icon fa fa-instagram d-block"
+                aria-hidden="true"
+              ></i
+            ></a>
+          </nav>
+          <nav class="footer-link-container">
+            <a
+              class="footer-link"
+              target="_blank"
+              href="https://politicadeprivacidadplantilla.com/"
+              data-section="footer"
+              data-value="privacy-policy"
+              >Política de privacidad</a
+            >
+            <a
+              class="footer-link"
+              target="_blank"
+              href="https://politicadeprivacidadplantilla.com/"
+              data-section="footer"
+              data-value="cookies-policy"
+              >Política de cookies</a
+            >
+          </nav>
+        </div>
+      </div>
+    </footer>
+    <script src="js/header.js"></script>
+    <script src="js/flags.js"></script>
+  </body>
+</html>

@@ -1,0 +1,101 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About us",
+    "contact": "Contact us",
+    "language": "EN"
+  },
+  "home-hero": {
+    "title": "Say goodbye to coins",
+    "paragraph": "Use an online wallet to pay for all your university services.",
+    "button": "Download!"
+  },
+  "benefits": {
+    "title": "VWallet and your university services",
+    "paragraph": "The COVID-19 problem has caused the digital market to expand. More and more people are using digital means to make their payments, instead of carrying cash (coins and/or bills).",
+    "benefit1-title": "Virtual money",
+    "benefit1-description": "With VWallet, you can register with your institutional email and link it with virtual money that you can use to pay for your university's services.",
+    "benefit2-title": "Reservation",
+    "benefit2-description": "The reservation of some educational services, such as bus transportation, can be done in a few steps from VWallet.",
+    "benefit3-title": "Management",
+    "benefit3-description": "As you consume the services, you will be able to observe your payments for each day, week or month through graphs and tables."
+  },
+  "safe": {
+    "title": "VWallet works in collaboration with UPC",
+    "paragraph": "JABEL has a partnership with UPC to link the payment system of the application with that of the university platform.",
+    "button": "About us"
+  },
+  "services": {
+    "title": "Menu and Buses just a few clicks away!",
+    "paragraph": "From your cell phone, install VWallet and take advantage of all the services we provide.",
+    "service1-title": "Buses",
+    "service1-description": "Bus services can only be paid for electronically.",
+    "service2-title": "Menu",
+    "service2-description": "Avoid touching your coins or bills just before lunch.",
+    "service3-title": "Reservation",
+    "service3-description": "With VWallet, you have the possibility to reserve a service by paying for it in advance."
+  },
+  "cta": {
+    "title": "What are you waiting for?",
+    "paragraph": "Download VWallet now!"
+  },
+  "testimony": {
+    "title": "Comments about VWallet",
+    "paragraph": "By the UPC student community.",
+    "testimony1-name": "María Fernandez (17)",
+    "testimony1-description": "I don't need to wait until I'm older to make digital payments in college.",
+    "testimony2-name": "Alejandra Suárez (19)",
+    "testimony2-description": "I love being able to reserve my lunch daily with VWallet.","testimony3-name": "Rafael Loza (20)",
+    "testimony3-description": "VWallet has helped me in managing my finances regarding college."
+  },
+  "footer": {
+    "privacy-policy": "Privacy policy",
+    "cookies-policy": "Cookies policy"
+  },
+  "about-hero": {
+    "title": "Let's build the future together",
+    "paragraph": "Join JABEL, a committed work team that targets future trends and develops the best apps.",
+    "button": "Contact us now!"
+  },
+  "profiles": {
+    "title": "Profiles of JABEL members",
+    "profile1-name": "Luis Huamán",
+    "profile1-description": "I study information systems engineering at UPC (Universidad Peruana de Ciencias Aplicadas). I like challenges and video games, because of this I decided to enter this career. Also, I consider myself as a responsible person when working as a team or individually.",
+    "profile2-name": "Arián Tapia",
+    "profile2-description": "I am a student of information systems engineering at UPC. I consider myself as an organized, hard-working and perfectionist person. Throughout my academic experience, I have accumulated some experience to function within teamwork.",
+    "profile3-name": "Edson Linares",
+    "profile3-description": "I am a student of information systems engineering at UPC (Universidad Peruana de Ciencias Aplicadas). I consider myself a person who usually seeks the best possible solution to problems. I am a determined, hard-working and responsible person because I usually always do my part on time and in an orderly manner to carry out any job.",
+    "profile4-name": "Julio Elsner",
+    "profile4-description": "I am a software engineering student. Previously, I have already had experience with the type of work that involves group work and that seeks a solution to a problem. In my opinion, I am quite good at extracting information from a problem which improves joint group work and the organization in general.",
+    "profile5-name": "Brillite Cayllahua",
+    "profile5-description": "I study information systems engineering at UPC (Universidad Peruana de Ciencias Aplicadas). I like sports and researching new topics on information systems innovation. In this way, I would obtain more knowledge that will help me in future career projects. I consider myself a responsible, honest and kind person. In addition, my commitment to the group to carry out this project can be summarized from the following skills: proactivity, responsibility and determination, with the aim of having good communication and execution in this project."
+  },
+  "about-hero2": {
+    "title": "Need help?",
+    "paragraph": "Our team is ready to make sure you get the help you need in the shortest possible time. If it is a problem with VWallet, please do not hesitate to contact us.",
+    "button": "Contact support"
+  },
+  "contact-hero": {
+    "title": "Contact with JABEL",
+    "contact-us-title": "Contact us",
+    "contact-us-text": "Do you want to say hello to us? We would love to hear from you. We love our customers and community!",
+    "contact-us-button": "Send us a message",
+    "get-help-title": "Get help",
+    "get-help-text": "Do you have a problem with a payment in VWallet? Complete our support form.",
+    "get-help-button": "Contact help"
+  },
+  "contact": {
+    "1st-title": "Contact us",
+    "1st-description1": "JABEL123",
+    "1st-description2": "Rainy Street",
+    "1st-description3": "Oklahoma City, OK 73129",
+    "1st-description4": "General inquiries: (405) 555-5555",
+    "1st-description5": "Customer support: (405) 555-5556",
+    "2nd-title": "Support form",
+    "2nd-paragraph": "Send us a message and we'll get back to you as soon as possible!",
+    "2nd-field1": "Name",
+    "2nd-field2": "Email",
+    "2nd-field3": "Message",
+    "2nd-button": "Submit"
+  }
+}

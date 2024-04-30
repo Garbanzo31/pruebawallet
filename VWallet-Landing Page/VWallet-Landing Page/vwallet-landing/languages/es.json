@@ -1,0 +1,100 @@
+{
+  "header": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "contact": "Contáctanos",
+    "language": "ES"
+  },
+  "home-hero": {
+    "title": "Despídete de las monedas",
+    "paragraph": "Utiliza una cartera online para pagar todos tus servicios de la universidad.",
+    "button": "¡Descargar!"
+  },
+  "benefits": {
+    "title": "VWallet y tus servicios de la universidad",
+    "paragraph": "La problemática del COVID-19 ha hecho que el mercado digital se expanda. Cada vez se suman más personas que usan medios digitales para realizar sus pagos, en lugar de portar dinero en efectivo (monedas y/o billetes).",
+    "benefit1-title": "Dinero virtual",
+    "benefit1-description": "Con VWallet, podrás registrarte con tu correo institucional y vincularlo con dinero virtual que podrás utilizar para pagar los servicios de tu universidad.",
+    "benefit2-title": "Reserva",
+    "benefit2-description": "La reserva de algunos servicios educativos, como el de transporte en buses, se puede realizar en pocos pasos desde VWallet.",
+    "benefit3-title": "Gestión",
+    "benefit3-description": "A medida que vayas consumiendo los servicios, podrás observar tus pagos por cada día, semana o mes a través de gráficos y tablas."
+  },
+  "safe": {
+    "title": "VWallet trabaja en colaboración con la UPC",
+    "paragraph": "JABEL tiene una asociación con la UPC para vincular el sistema de pagos del aplicativo con el de la plataforma de la universidad.",
+    "button": "Acerca de nosotros"
+  },
+  "services": {
+    "title": "¡Menú y Buses a unos clicks!",
+    "paragraph": "Desde tu celular, instala VWallet y aprovecha todos los servicios que facilitamos.",
+    "service1-title": "Buses",
+    "service1-description": "Los servicios de buses solo pueden pagarse con medios electrónicos.",
+    "service2-title": "Menú",
+    "service2-description": "Evita estar tocando tus monedas o billetes justo antes de almorzar.","service3-title": "Reserva",
+    "service3-description": "Con VWallet, tienes la posibilidad de reservar un servicio pagándolo por adelantado."
+  },
+  "cta": {
+    "title": "¿Qué estas esperando?",
+    "paragraph": "¡Descarga VWallet ya!"
+  },
+  "testimony": {
+    "title": "Comentarios sobre VWallet",
+    "paragraph": "Por parte de la comunidad estudiantil de la UPC.",
+    "testimony1-name": "María Fernandez (17)",
+    "testimony1-description": "No necesito esperar a ser mayor para hacer pagos digitales en la universidad.",
+    "testimony2-name": "Alejandra Suárez (19)",
+    "testimony2-description": "Me encanta poder reservar diariamente mi almuerzo con VWallet.","testimony3-name": "Rafael Loza (20)",
+    "testimony3-description": "VWallet me ha ayudado en el manejo de mis finanzas con respecto a la universidad."
+  },
+  "footer": {
+    "privacy-policy": "Política de privacidad",
+    "cookies-policy": "Política de cookies"
+  },
+  "about-hero": {
+    "title": "Construyamos el futuro",
+    "paragraph": "Únete a JABEL, un equipo de trabajo comprometido que apunta hacia las tendencias futuras y desarrolla las mejores aplicaciones.",
+    "button": "¡Contáctanos ya!"
+  },
+  "profiles": {
+    "title": "Perfiles de los integrantes de JABEL",
+    "profile1-name": "Luis Huamán",
+    "profile1-description": "Estudio en la carrera de ingeniería de sistemas de información en la UPC (Universidad Peruana de Ciencias Aplicadas). Me gustan los retos y los videojuegos, debido a ello decidí entrar a dicha carrera. También, me considero como una persona responsable al momento de trabajar en equipo o de manera individual.",
+    "profile2-name": "Arián Tapia",
+    "profile2-description": "Soy estudiante de la carrera de ingeniería de sistemas de información en la UPC. Me considero como una persona organizada, trabajadora y perfeccionista. A lo largo de mi experiencia académica, he acumulado cierta experiencia para desenvolverme dentro de los trabajos en equipo.",
+    "profile3-name": "Edson Linares",
+    "profile3-description": "Soy estudiante de ingeniería de sistemas deinformación en la Universidad Peruana de Ciencias Aplicadas (UPC). Me considero una persona que suele buscar la mejor solución posible a los problemas. Soy una persona empeñosa, trabajadora y responsable debido a que suelo poner siempre demi parte a tiempo y de manera ordenada para la realización de cualquier trabajo.",
+    "profile4-name": "Julio Elsner",
+    "profile4-description": "Soy estudiante de la carrera de ingeniería de software. Con anterioridad, ya he tenido experiencia con el tipo de trabajos que conllevan trabajo grupal y que busca una solución a alguna problemática. En mi opinión, soy bastante hábil extrayendo información de algún problema lo cual mejora el trabajo conjunto en grupo y la organización en general.",
+    "profile5-name": "Brillite Cayllahua",
+    "profile5-description": "Estudio la carrera de ingeniería desistemas de información en la Universidad Peruana de Ciencias Aplicadas (UPC). Me gusta el deporte e investigar nuevos temas sobre innovación de informaciónde sistemas. De esta manera, obtendría más conocimientos que me ayudarán en losproyectos futuros sobre de carrera. Me considero una persona responsable,honesta y amable. Además, mi compromiso con el grupo para realizar esteproyecto se resume a partir de las siguientes habilidades: proactividad,responsabilidad y determinación, con el objetivo de tener una buena comunicación y ejecución en este proyecto."
+  },
+  "about-hero2": {
+    "title": "¿Necesitas ayuda?",
+    "paragraph": "Nuestro equipo está listo para asegurarse de que obtengas la ayuda que necesitas en el menor tiempo posible. Si se trata de un problema con VWallet, no dudes en contactarnos.",
+    "button": "Contacta soporte"
+  },
+  "contact-hero": {
+    "title": "Contacta con JABEL",
+    "contact-us-title": "Contáctanos",
+    "contact-us-text": "¿Quieres decirnos hola? Nos encantaría saber de ti. ¡Amamos a nuestros clientes y comunidad!",
+    "contact-us-button": "Enviarnos un mensaje",
+    "get-help-title": "Obtén ayuda",
+    "get-help-text": "¿Tienes algún problema con un pago en VWallet? Completa nuestro formulario de soporte.",
+    "get-help-button": "Contacta ayuda"
+  },
+  "contact": {
+    "1st-title": "Contáctanos",
+    "1st-description1": "JABEL123",
+    "1st-description2": "Rainy Street",
+    "1st-description3": "Oklahoma City, OK 73129",
+    "1st-description4": "Consultas generales: (405) 555-5555",
+    "1st-description5": "Atención al cliente: (405) 555-5556",
+    "2nd-title": "Formulario de soporte",
+    "2nd-paragraph": "¡Envíanos un mensaje y te responderemos lo más pronto posible!",
+    "2nd-field1": "Nombre",
+    "2nd-field2": "Email",
+    "2nd-field3": "Mensaje",
+    "2nd-button": "Enviar"
+  }
+}

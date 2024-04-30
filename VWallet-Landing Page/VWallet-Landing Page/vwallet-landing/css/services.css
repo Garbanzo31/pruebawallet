@@ -1,0 +1,78 @@
+.services {
+  padding-bottom: 3rem;
+}
+
+.services-title {
+  font: var(--bold) var(--headline2-size) / var(--headline2-line-height)
+    var(--font-family);
+  margin: 3.3rem 0 2rem;
+  text-align: center;
+}
+
+.service-container {
+  padding-top: 1rem;
+}
+
+.services-element {
+  border-radius: 10px;
+  border: 3px solid black;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.service-image-1,
+.service-image-2,
+.service-image-3 {
+  position: relative;
+  height: 300px;
+  /* background image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.service-image-1 {
+  background-image: url("../imgs/services/bus.jpg");
+}
+
+.service-image-2 {
+  background-image: url("../imgs/services/cafeteria.jpg");
+}
+
+.service-image-3 {
+  background-image: url("../imgs/services/reserva.jpg");
+}
+
+.service-index {
+  position: absolute;
+  top: 3%;
+  left: 8%;
+}
+
+.service-title {
+  margin: 1rem 0 0.5rem;
+  font: var(--bold) var(--headline3-size) / var(--headline3-line-height)
+    var(--font-family);
+  text-align: center;
+}
+
+.service-description {
+  margin: 1rem 0 1.5rem;
+}
+
+.services-paragraph,
+.service-description {
+  font: var(--paragraph-size) / var(--paragraph-line-height) var(--font-family);
+  text-align: justify;
+}
+
+.services-paragraph {
+  text-align: center;
+}

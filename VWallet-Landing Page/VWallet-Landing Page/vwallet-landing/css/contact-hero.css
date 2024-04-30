@@ -1,0 +1,120 @@
+.hero {
+  color: var(--white);
+  height: auto;
+  background: none;
+  position: relative;
+}
+
+.hero-elements {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-start;
+  padding-bottom: 4rem;
+}
+
+.hero-title {
+  margin: 2rem 0 2.4rem;
+  font: var(--bold) var(--headline-size-lg) / var(--headline-line-height-lg)
+    var(--font-family);
+}
+
+.hero-black-block {
+  z-index: -1000;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 100%;
+  background-color: var(--black);
+}
+
+.hero-img {
+  z-index: -1000;
+  position: absolute;
+  top: 0;
+  left: 70%;
+  width: 30%;
+  height: 100%;
+  background-image: linear-gradient(
+      90deg,
+      rgba(34, 34, 34, 1),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url("../imgs/contact/contact-img.PNG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.contact-hero-block-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contact-hero-block {
+  max-width: 500px;
+  height: 420px;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white);
+  color: var(--black);
+}
+
+.contact-hero-block > i {
+  margin-bottom: 1rem;
+  color: var(--primary);
+}
+
+.contact-hero-block > h2 {
+  font: var(--bold) var(--headline2-size) / var(--headline2-line-height)
+    var(--font-family);
+}
+
+.contact-hero-block > p {
+  width: 90%;
+  font: var(--regular) var(--lead-paragraph-size) /
+    var(--lead-paragraph-line-height) var(--font-family);
+  text-align: justify;
+}
+
+@media (max-width: 992px) {
+  .hero-title {
+    font: var(--bold) var(--headline-size) / var(--headline-line-height)
+      var(--font-family);
+  }
+
+  .contact-hero-block {
+    background-color: rgba(255, 255, 255, 0.85);
+  }
+
+  .contact-hero-block > p {
+    margin: 0.5rem 0 1.5rem;
+    font: var(--regular) var(--paragraph-size) / var(--paragraph-line-height)
+      var(--font-family);
+    text-align: justify;
+  }
+
+  .hero-black-block {
+    display: none;
+  }
+
+  .hero-img {
+    left: 0;
+    width: 100%;
+    background-image: linear-gradient(
+        0deg,
+        rgba(34, 34, 34, 1),
+        rgba(0, 0, 0, 0.2)
+      ),
+      url("../imgs/contact/contact-img.PNG");
+  }
+}

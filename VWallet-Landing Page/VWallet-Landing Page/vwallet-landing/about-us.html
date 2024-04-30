@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Own stylesheets -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/flags.css" />
+    <link rel="stylesheet" href="css/about-us.css" />
+    <link rel="stylesheet" href="css/hero.css" />
+    <link rel="stylesheet" href="css/profiles.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/61ebb60581.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+    <title>VWallet</title>
+  </head>
+  <body>
+    <header class="header">
+      <img
+        class="header-logo"
+        src="imgs/logo/LOGO-transparente-negro.png"
+        alt="VWallet Logo"
+      />
+      <nav>
+        <ul class="header-menu">
+          <li>
+            <a
+              class="header-menu-link"
+              href="index.html"
+              data-section="header"
+              data-value="home"
+              >Inicio</a
+            >
+          </li>
+          <li>
+            <a
+              class="header-menu-link"
+              href="about-us.html"
+              data-section="header"
+              data-value="about"
+              >Acerca de</a
+            >
+          </li>
+          <li>
+            <a
+              class="header-menu-link"
+              href="contact.html"
+              data-section="header"
+              data-value="contact"
+              >Contáctanos</a
+            >
+          </li>
+        </ul>
+        <div class="header-menu-bar">
+          <div class="open-menu active">
+            <i class="fas fa-solid fa-bars"></i>
+          </div>
+          <div class="close-menu"><i class="fas fa-solid fa-close"></i></div>
+        </div>
+        <div class="flags-button">
+          <div class="flags-text" data-section="header" data-value="language">
+            ES
+          </div>
+          <div class="flags-arrow-right active">
+            <i class="fa fa-sm fa-chevron-right" aria-hidden="true"></i>
+          </div>
+          <div class="flags-arrow-down">
+            <i class="fa fa-sm fa-chevron-down" aria-hidden="true"></i>
+          </div>
+        </div>
+      </nav>
+      <div class="flags-container">
+        <div class="flags-item" data-language="es">
+          <img class="flags-img" src="/imgs/icons/es.svg" alt="Spanish flag" />
+        </div>
+        <div class="flags-item" data-language="en">
+          <img class="flags-img" src="/imgs/icons/us.svg" alt="USA flag" />
+        </div>
+      </div>
+    </header>
+    <section class="hero container-fluid">
+      <div class="hero-elements container">
+        <h1
+          class="hero-title col-12"
+          data-section="about-hero"
+          data-value="title"
+        >
+          Construyamos el futuro
+        </h1>
+        <p
+          class="hero-paragraph col-8"
+          data-section="about-hero"
+          data-value="paragraph"
+        >
+          Únete a JABEL, un equipo de trabajo comprometido que apunta hacia las
+          tendencias futuras y desarrolla las mejores aplicaciones.
+        </p>
+        <a href="contact.html"
+          ><button
+            class="hero-btn btn-primary"
+            data-section="about-hero"
+            data-value="button"
+          >
+            ¡Contáctanos ya!
+          </button></a
+        >
+      </div>
+    </section>
+    <section class="profiles container-fluid">
+      <div class="profiles-elements container">
+        <h2 class="profiles-title" data-section="profiles" data-value="title">
+          Perfiles de los integrantes de JABEL
+        </h2>
+        <div class="row profile-row">
+          <div class="profile col-lg-5">
+            <figure class="profile-img-container">
+              <img
+                class="profile-img"
+                src="imgs/collaborators/1.jpeg"
+                alt="César Martinez photo"
+              />
+            </figure>
+            <h3
+              class="profile-name"
+              data-section="profiles"
+              data-value="profile1-name"
+            >
+              César Martínez
+            </h3>
+            <p
+              class="profile-description"
+              data-section="profiles"
+              data-value="profile1-description"
+            >
+              Soy estudiante de la carrera de Ingeniería de sistemas de Información.
+              Me considero una persona optimista, eficaz en el buen rendimiento de 
+              hacer trabajos en equipo. Por otro lado, me gusta aprender y a diseñar 
+              programas web mediante HTML, CSS como también emplear mis conocimientos 
+              en la información de base de datos mediante SQL Server Management.
+            </p>
+          </div>
+          <div class="col-lg-2"></div>
+          <div class="profile col-lg-5">
+            <figure class="profile-img-container">
+              <img
+                class="profile-img"
+                src="imgs/collaborators/2.jpg"
+                alt="Arián Tapia photo"
+              />
+            </figure>
+            <h3
+              class="profile-name"
+              data-section="profiles"
+              data-value="profile2-name"
+            >
+              Arián Tapia
+            </h3>
+            <p
+              class="profile-description"
+              data-section="profiles"
+              data-value="profile2-description"
+            >
+              Soy estudiante de la carrera de ingeniería de sistemas de
+              información en la UPC. Me considero como una persona organizada,
+              trabajadora y perfeccionista. A lo largo de mi
+              experienciaacadémica, he acumulado cierta experiencia para
+              desenvolverme dentro de los trabajos en equipo.
+            </p>
+          </div>
+        </div>
+        <div class="row profile-row">
+          <div class="profile col-lg-5">
+            <figure class="profile-img-container">
+              <img
+                class="profile-img"
+                src="imgs/collaborators/3.png"
+                alt="Edson Linares photo"
+              />
+            </figure>
+            <h3
+              class="profile-name"
+              data-section="profiles"
+              data-value="profile3-name"
+            >
+              Edson Linares
+            </h3>
+            <p
+              class="profile-description"
+              data-section="profiles"
+              data-value="profile3-description"
+            >
+              Soy estudiante de ingeniería de sistemas deinformación en la
+              Universidad Peruana de Ciencias Aplicadas (UPC). Me considero una
+              persona que suele buscar la mejor solución posible a los
+              problemas. Soy una persona empeñosa, trabajadora y responsable
+              debido a que suelo poner siempre demi parte a tiempo y de manera
+              ordenada para la realización de cualquier trabajo.
+            </p>
+          </div>
+          <div class="col-lg-2"></div>
+          <div class="profile col-lg-5">
+            <figure class="profile-img-container">
+              <img
+                class="profile-img"
+                src="imgs/collaborators/4.jpeg"
+                alt="Julio Elsner photo"
+              />
+            </figure>
+            <h3
+              class="profile-name"
+              data-section="profiles"
+              data-value="profile4-name"
+            >
+              Jair Ramírez
+            </h3>
+            <p
+              class="profile-description"
+              data-section="profiles"
+              data-value="profile4-description"
+            >
+              Soy estudiante de la carrera de ingeniería de sistemas de información, 
+              actualmente cursando el séptimo ciclo. Tengo hobbies como escuchar música, 
+              ver películas y series. También conocimientos de programación, como java, 
+              c++, c#, html y css, además de conocimientos de base de datos como MongoDB 
+              y SQL Server Management. Me considero una persona responsable, creativa, amigable.
+            </p>
+          </div>
+        </div>
+        <div class="row profile-row">
+          <div class="profile col-lg-5">
+            <figure class="profile-img-container">
+              <img
+                class="profile-img"
+                src="imgs/collaborators/5.jpeg"
+                alt="Brillite Cayllahua photo"
+              />
+            </figure>
+            <h3
+              class="profile-name"
+              data-section="profiles"
+              data-value="profile5-name"
+            >
+            Angel Milla
+            </h3>
+            <p
+              class="profile-description"
+              data-section="profiles"
+              data-value="profile5-description"
+            >
+            Estudio la carrera de Ingeniería de Sistemas de Información. Este es mi cuarto 
+            ciclo en lo que respecta a mi carrera. Tengo como hobbies escuchar música 
+            electrónica y jugar videojuegos. Además, tengo conocimiento en C++ y SQL Server
+            Management. Me gusta mucho el trabajo en equipo, puesto que considero en que las
+            ideas que se compartan con los integrantes de mi grupo serán fundamentales para
+            el desarrollo de un trabajo.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="hero container-fluid">
+      <div class="hero-elements container">
+        <h1
+          class="hero-title col-12"
+          data-section="about-hero2"
+          data-value="title"
+        >
+          ¿Necesitas ayuda?
+        </h1>
+        <p
+          class="hero-paragraph col-8"
+          data-section="about-hero2"
+          data-value="paragraph"
+        >
+          Nuestro equipo está listo para asegurarse de que obtengas la ayuda que
+          necesitas en el menor tiempo posible. Si se trata de un problema con
+          VWallet, no dudes en contactarnos.
+        </p>
+        <a href="contact.html"
+          ><button
+            class="hero-btn btn-primary"
+            data-section="about-hero2"
+            data-value="button"
+          >
+            Contacta soporte
+          </button></a
+        >
+      </div>
+    </section>
+    <footer class="footer container-fluid">
+      <div class="footer-elements container flex-sm-row">
+        <div class="footer-1st">
+          <figure class="footer-img-container">
+            <img
+              class="footer-img"
+              src="imgs/logo/LOGO-transparente-blanco.png"
+              alt="VWallet Logo"
+            />
+          </figure>
+          <p class="footer-description">©Copyright 2022. VWallet.</p>
+        </div>
+        <div class="footer-2nd">
+          <nav class="social-media">
+            <a target="_blank" href="https://www.facebook.com/"
+              ><i
+                class="social-media-icon fa fa-facebook d-block"
+                aria-hidden="true"
+              ></i
+            ></a>
+            <a target="_blank" href="https://twitter.com/?lang=es"
+              ><i
+                class="social-media-icon fa fa-twitter d-block"
+                aria-hidden="true"
+              ></i
+            ></a>
+            <a target="_blank" href="https://www.instagram.com/"
+              ><i
+                class="social-media-icon fa fa-instagram d-block"
+                aria-hidden="true"
+              ></i
+            ></a>
+          </nav>
+          <nav class="footer-link-container">
+            <a
+              class="footer-link"
+              target="_blank"
+              href="https://politicadeprivacidadplantilla.com/"
+              data-section="footer"
+              data-value="privacy-policy"
+              >Política de privacidad</a
+            >
+            <a
+              class="footer-link"
+              target="_blank"
+              href="https://politicadeprivacidadplantilla.com/"
+              data-section="footer"
+              data-value="cookies-policy"
+              >Política de cookies</a
+            >
+          </nav>
+        </div>
+      </div>
+    </footer>
+    <script src="js/header.js"></script>
+    <script src="js/flags.js"></script>
+  </body>
+</html>

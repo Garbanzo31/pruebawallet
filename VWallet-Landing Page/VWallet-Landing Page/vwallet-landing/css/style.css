@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Sen&display=swap");
+
+:root {
+  /* Font family */
+  --font-family: "Sen", sans-serif;
+  /* Font weight */
+  --regular: 400;
+  --bold: 600;
+  --extra-bold: 800;
+  /* Font sizes */
+  --headline-size-lg: 62px;
+  --headline-size: 50px;
+  --headline2-size: 40px;
+  --headline3-size: 32px;
+  --headline4-size: 18px;
+  --headline5-size: 16px;
+  --lead-paragraph-size: 24px;
+  --paragraph-size: 18px;
+  --mini-paragraph-size: 12px;
+  /* Font line heights */
+  --headline-line-height-lg: 75px;
+  --headline-line-height: 65px;
+  --headline2-line-height: 40px;
+  --headline3-line-height: 30px;
+  --headline4-line-height: 20px;
+  --headline5-line-height: 20px;
+  --lead-paragraph-line-height: 30px;
+  --paragraph-line-height: 18px;
+  --mini-paragraph-line-height: 12px;
+  /* Colors */
+  --black: #222222;
+  --grey: #525252;
+  --primary: #ee7200;
+  --secondary: #cf6300;
+  --white: #f9f9f9;
+  --alert: #1976d2;
+  --caution: #ffde03;
+  --warning: #e53935;
+  --success: #20c788;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::selection {
+  background-color: var(--secondary);
+  color: var(--white);
+}
+
+html {
+  font: var(--regular) var(--lead-paragraph-size) /
+    var(--lead-paragraph-line-height) var(--font-family);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.btn-primary {
+  width: auto;
+  height: 50px;
+  padding: 0px 17px;
+  border: none;
+  border-radius: 15px;
+  background-color: var(--primary);
+  color: var(--white);
+  font: var(--bold) var(--paragraph-size) / var(--paragraph-line-height)
+    var(--font-family);
+  transition: background-color 0.2s;
+  -webkit-transition: background-color 0.2s;
+  -moz-transition: background-color 0.2s;
+  -ms-transition: background-color 0.2s;
+  -o-transition: background-color 0.2s;
+}
+
+.btn-primary:hover {
+  background-color: var(--secondary);
+}

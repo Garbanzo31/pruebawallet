@@ -1,0 +1,8 @@
+.hero {
+  background-image: linear-gradient(
+      135deg,
+      rgba(54, 54, 54, 0.73),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url("../imgs/home/hero-img.jpg");
+}
